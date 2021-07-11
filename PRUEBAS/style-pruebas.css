@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#header {
+    margin: auto;
+    width: 500px;
+    font-family: 'Courier New', Courier, monospace;   
+}
+ul , ol {
+    list-style: none;
+}
+.header__menu li a {
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.header__menu li a:hover {
+    background-color: #434343;
+}
+.header__menu > li {
+    float: left;
+}
+.header__menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.header__menu li:hover > ul{
+    display:block
+}

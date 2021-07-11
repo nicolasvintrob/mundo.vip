@@ -1,0 +1,50 @@
+#formulario .contacto {
+    background-color: #760101;
+    padding: 100px;
+    margin-left: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    display: inline;
+    box-align: center;
+    color: #fff;
+    height: 500px;
+    width: 900px;
+}
+#datos_contacto {
+    border: 5px solid #000;
+    margin-left: 100px;
+    height: 420px;
+    width: 400px;
+    background-color: #2e0000;
+    color: #fff;
+}
+#datos_contacto .img_ubicacion {
+    height: 90px;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#datos_contacto .img_dias {
+    height: 90px;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#datos_contacto .img_horarios {
+    height: 90px;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#datos_contacto .img_telefono {
+    height: 90px;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.h2_formulario {
+   margin-top: 0px;
+}

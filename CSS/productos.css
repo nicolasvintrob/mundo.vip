@@ -1,0 +1,180 @@
+.Titulo__Celulares {
+    border: 1px solid #000;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+#celulares__samsung {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#celulares__samsung .a013 {
+    height: 300px;
+    width: 300px;
+}
+#celulares__samsung .a21 {
+    height: 300px;
+    width: 300px;
+}
+#celulares__samsung .a32 {
+    height: 300px;
+    width: 300px;
+}
+#celulares__samsung .a71 {
+    height: 300px;
+    width: 200px;
+}
+.container {
+    max-width: 800px;
+    margin: 0px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+.box__celulares {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.container__box__celulares {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    padding-left: 110px;
+    padding-right: 250px;
+}
+#celulares__motorola {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#celulares__motorola .XT2053 {
+    height: 300px;
+    width: 300px;
+}
+#celulares__motorola .g9power {
+    height: 300px;
+    width: 300px;
+}
+#celulares__motorola .e6play {
+    height: 300px;
+    width: 300px;
+}
+#celulares__motorola .e7plus {
+    height: 300px;
+    width: 200px;
+}
+.Titulo__TVs {
+    border: 1px solid #000;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+#Televisores__productos {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#Televisores__productos .nob32 {
+    height: 300px;
+    width: 300px;
+}
+#Televisores__productos .tcl32 {
+    height: 300px;
+    width: 300px;
+}
+#Televisores__productos .nob50 {
+    height: 300px;
+    width: 300px;
+}
+#Televisores__productos .hy50 {
+    height: 300px;
+    width: 300px;
+}
+.container {
+    max-width: 800px;
+    margin: 0px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+.box__televisores {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.container__box__televisores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    padding-left: 110px;
+    padding-right: 250px;
+}
+.Titulo__Tablets {
+    border: 1px solid #000;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+#Tablets__productos {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#Tablets__productos .gt7 {
+    height: 300px;
+    width: 300px;
+}
+#Tablets__productos .gt10 {
+    height: 300px;
+    width: 300px;
+}
+#Tablets__productos .sk3401 {
+    height: 300px;
+    width: 300px;
+}
+#Tablets__productos .sk5501 {
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+.box__tablets {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.container__box__tablets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    padding-left: 110px;
+    padding-right: 250px;
+}

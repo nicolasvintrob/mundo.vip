@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/formulario.css">
+</head>
+<header class="header">
+    <div class="header__envios">
+       <p>ENVIOS GRATIS A PARTIR DE LOS $2.500</p>
+    </div>
+    <div class="header__logo">
+        <img src="../foto/logoMV.jpeg" alt="Logo Mundo Vip" class="logo">
+    </div>
+    <nav id="header__menu">
+        <ul class="header__ul__menu">
+            <li><a href="../index.html" target="_self">Home</a></li>
+            <li><a href="./Productos.html" target="_self">Productos</a>
+                <ul>
+                    <li><a href="../PAGES/Celulares.html" target="_self">Celulares</a></li>
+                    <li><a href="../PAGES/Tablets.html" target="_self">tablets</a></li>
+                    <li><a href="../PAGES/Televisores.html" target="_self">Televisores</a></li>
+                </ul>
+            </li>
+            <li><a href="../PAGES/Ofertas.html" target="_self">Ofertas</a></li>
+            <li><a href="../PAGES/Nosotros.html" target="_self">Nosotros</a></li>
+        </ul>
+    </nav> 
+</header>
+<body>
+    <form id="formulario">
+        <fieldset class="contacto">
+            <h2 class="h2_formulario">CONTACTATE CON NOSOTROS</h2>
+
+            <label for="name">Nombre:</label>
+            <input id="name" type="text" name="name" required>
+
+            <br>
+
+            <label for="tel">Telefono:</label>
+            <input id="tel" type="tel" name="tel" required>
+
+            <br>
+
+            <label for="email">Mail:</label>
+            <input id="email" type="email" name="email" required>
+
+            <br>
+
+            <label for="Producto">Motivo de la consulta:</label>
+            <select name="Producto" id="Producto" required>
+                <option value="ninguna" selected>Eliga una opcion</option>
+                <option value="Cel">Celulares</option>
+                <option value="Tab">Tablets</option>
+                <option value="Tv">Televisores</option>
+                <option value="Art Hogar">Art. Para el Hogar</option>
+                <option value="Otro">Otro</option>
+            </select>
+
+            <br>
+
+            <textarea name="text" id="text" cols="30" rows="10">Deje su comentario</textarea>
+
+            <br>
+
+            <label>Desea recibir mas informacion</label>
+            <input type="radio" name="info" value="Si">SI
+            <input type="radio" name="info" value="No">NO
+
+            <br>
+
+            <label for="check-1">Acepta terminos y condiciones:</label>
+            <input id="check-1" type="checkbox" name="acepta" value="1" required>
+
+            <br>
+
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="BORRAR">
+        </fieldset>
+    </form>
+    <div id="datos_contacto">
+        <p> <img src="../foto/ubicacion.png" alt="ubicacion" class="img_ubicacion">Av. Luis Maria Campos 559 oficina 406</p>
+        <p> <img src="../foto/dias.png" alt="dias" class="img_dias">Lunes a Viernes</p>
+        <p><img src="../foto/horario.png" alt="horarios" class="img_horarios">11 a 16 hs. </p>
+        <p><img src="../foto/telefono.png" alt="telefono" class="img_telefono">011 15 3893-1977</p>
+        
+        
+    </div>
+</body>
+
+<footer class="pie">
+    <hr>
+    <p class="pie__texto">Aceptamos todas las tarjetas</p>
+ <p>Podes seguirnos en nuestras redes <a href="https://www.instagram.com/tecnomundovip_/?hl=es-la"      target="_blank" class="pie__boton">@TECNOMUNDOVIP_</p></a>
+</footer>
+</html>

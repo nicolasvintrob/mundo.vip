@@ -1,0 +1,159 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    text-align: center;
+    height: 250px;
+    background-color: #fff
+}
+
+.header__productos {
+    text-align: center;
+    height: 150px;
+    background-color: #fff
+}
+.header__ofertas {
+    text-align: center;
+    height: 150px;
+    background-color: #fff
+}
+.header__envios p {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header__logo img { 
+    width: 200px;
+    height: auto;
+}
+#header__menu {
+    margin: auto;
+    width: 500px; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+ul , ol {
+    list-style: none;
+}
+.header__ul__menu li a {
+    background-color: #424242;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.header__ul__menu li a:hover {
+    background-color: #111111;
+}
+.header__ul__menu > li {
+    float: left;
+}
+.header__ul__menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.header__ul__menu li:hover > ul{
+    display:block
+}
+#intro .intro__banner img {
+    width: 100%;
+    height: auto;
+}
+.informacion__MP {
+    border: 5px solid #000;
+    padding: 30px;
+    margin: 5px;
+    margin-right: 1000px;
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.informacion__envios { /* PONER DEBAJO DEL OTRO CUADRO IN LINE */
+    border: 5px solid #000;
+    padding: 30px;
+    margin: 5px;
+    margin-right: 1000px;
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.informacion__pagoCash {
+    border: 5px solid #000;
+    padding: 30px;
+    margin: 5px;
+    margin-right: 1000px;
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.pie {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+.pie__boton a {
+    text-decoration: none;
+}
+.pie__texto {
+    margin-top: 20px;
+}
+#container__grid {
+    padding: 30px 5px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 600px 600px;
+    grid-gap: 10px;
+    background-color: #fff;
+}
+
+#tabla .tabla__Celulares {
+    width: 350px;
+    height: auto;
+}
+#tabla .tabla__Tablet {
+    width: 350px;
+    height: auto;
+}
+#tabla .tabla__Tv {
+    width: 350px;
+    height: auto;
+}
+#tabla .tabla__ArtHogar {
+    width: 350px;
+    height: auto;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.box {
+    width: 400px;
+    height: 150px;
+    background-color: darkgrey;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
